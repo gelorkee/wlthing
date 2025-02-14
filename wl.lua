@@ -1,11 +1,9 @@
 local allowed = {
-  [1564439460] = true,
-  [53785569] = true,
-  [2783000531] = true,
-  [7486983397] = true
+  1564439460,
+  53785569,
+  2783000531,
+  7486983397
 }
-
-local pass = false
 
 if not table.find(allowed, game.Players.LocalPlayer.UserId) then 
   game.Players.LocalPlayer:Kick("error")
