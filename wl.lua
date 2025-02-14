@@ -5,7 +5,9 @@ local allowed = {
   [7486983397] = true
 }
 
+local pass = false
+
 if not table.find(allowed, game.Players.LocalPlayer.UserId) then 
   game.Players.LocalPlayer:Kick("error")
-  while true do 
+  while true do end
 end
