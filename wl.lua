@@ -8,7 +8,8 @@ local allowed = {
   1802752375,
   7022364359,
   7198588439,
-  1194797614
+  1194797614,
+  3989446463
 }
 
 if not table.find(allowed, game.Players.LocalPlayer.UserId) then 
