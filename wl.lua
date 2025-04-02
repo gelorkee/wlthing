@@ -16,4 +16,4 @@ local allowed = {
 if not table.find(allowed, game.Players.LocalPlayer.UserId) then 
   game.Players.LocalPlayer:Kick("error")
   while true do end
-end
+end 
